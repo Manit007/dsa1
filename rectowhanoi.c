@@ -18,6 +18,6 @@ void main( )
 int n;
 printf("enter the number of discs\n");
 scanf("%d",&n);
-tower(n,'a','c','b');
+tower(n,'A','C','B');
 printf("the total number of disc moves=%d",count);
 }
