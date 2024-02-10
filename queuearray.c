@@ -47,7 +47,8 @@ void main()
     int f,r,choice,item,q[20];
     r=-1;
     f=0;
-    for(;;){
+    for(;;)
+    {
         printf("1-Insert\t2-Delete\t3-Display\nAnyOtherNum-Exit\n");
         printf("Enter your choice:");
         scanf("%d",&choice);
