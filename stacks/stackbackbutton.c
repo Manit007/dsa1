@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define stacksize 2
+#define stacksize 50
 void push(int address,int *top,int s[])
 {
     if(*top==stacksize-1)
@@ -42,8 +42,8 @@ void main()
     top=-1;
     push(43242,&top,s);
     push(865936,&top,s);
-    push(0,&top,s);
-    for( ; ; )
+    push(803284,&top,s);
+    while(top!=stacksize)
     {
         printf("1-To load previous page\n2-To go to a new page\n3-To display pages in back\n");
         printf("AnyOtherNum-To exit the application:\n");
