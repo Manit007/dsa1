@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cstdlib": "c",
+        "type_traits": "c"
     }
 }
